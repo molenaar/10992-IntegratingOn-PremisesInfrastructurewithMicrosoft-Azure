@@ -1,4 +1,4 @@
-﻿# GitHub User Guide for MCTs
+# GitHub User Guide for MCTs
 
 Cloud services, such as Microsoft Azure, are updated frequently. This leads to issues for Microsoft Certified Trainers (MCTs) when they teach courses, such as 20532: Developing Microsoft Azure Solutions or 10992: Integrating On-Premises Core Infrastructure with Microsoft Azure, because lab steps change frequently as the service changes. Due to the frequency of the changes and the fact that there may not be any notification when changes occur, it can be difficult for the course development team to rapidly identify and address any lab changes. 
 
@@ -48,7 +48,7 @@ The Microsoft Learning team has created a solution that allows them to publish u
 
 3. Install the prerequisite software:
 
-  - Pandoc version 1.13.2
+  - Pandoc version 1.19.2
 
   - Windows PowerShell Community Extensions 3.2.0
 
@@ -100,19 +100,19 @@ To install the GitHub Desktop, perform the following steps:
 
 5. Close Github Desktop.
 
-### Installing Pandoc version 1.19
+### Installing Pandoc version 1.19.2
 Pandoc is a tool that you can use to convert files from one format to another. It can read many formats, including GFM, and you use it output Microsoft Word's .docx format. Pandoc is the tool behind the scripts that Microsoft Learning provides to create Word documents from the Markdown file format of the lab files. If you do not install Pandoc, the document-creation script fails.
 To install Pandoc, perform the following steps:
 
-1. In your browser, navigate to [https://github.com/jgm/pandoc/releases/1.19](https://github.com/jgm/pandoc/releases/1.19).
+1. In your browser, navigate to [https://github.com/jgm/pandoc/releases](https://github.com/jgm/pandoc/releases/).
 
 2. Scroll to the bottom of the page.
 
-3. Click **pandoc-1.19-windows.msi**.
+3. Click **pandoc-1.19.2-windows.msi**.
 
-4. When the **pandoc-1.19-windows.msi** file has downloaded, double-click the file to start the setup or click **Run** if you receive a prompt from Internet Explorer.
+4. When the **pandoc-1.19.2-windows.msi** file has downloaded, double-click the file to start the setup or click **Run** if you receive a prompt from Internet Explorer.
 
-5. In the **Pandoc 1.19 Setup** dialog, review the License Agreement, select **I accept the terms in the License Agreeement**, and then click **Next**.
+5. In the **Pandoc 1.19.2 Setup** dialog, review the License Agreement, select **I accept the terms in the License Agreeement**, and then click **Next**.
 
 6. Click **Finish**.
 
